@@ -23,7 +23,7 @@ export default class Bullet {
 
     this.width = 5;
     this.height = 15;
-    this.color = "red";
+    this.color = "yellow";
     // this.color = this.colors[Math.floor(Math.random() * this.colors.length)];
   }
 

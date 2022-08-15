@@ -28,9 +28,9 @@ const enemies = [
   new Enemy(450, 100, "gold", 20),
 ];
 
+ctx.fillStyle = "black";
+setCommonStyle();
 function gameLoop() {
-  setCommonStyle();
-  ctx.fillStyle = "black";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   bulletController.draw(ctx);
   player.draw(ctx);
